@@ -8,7 +8,7 @@
 <p>
   <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
   <img src="https://img.shields.io/badge/.NET%20Framework-4.7.2-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET Framework 4.7.2">
-  <img src="https://img.shields.io/github/v/release/cynx213/RobloxAccountManagerPlus?style=for-the-badge&label=Version&color=2ecc71" alt="Latest version">
+  <img src="https://img.shields.io/github/v/release/Cynx21309/RobloxAccountManagerPlus?style=for-the-badge&label=Version&color=2ecc71" alt="Latest version">
   <img src="https://img.shields.io/badge/Status-Active-2ecc71?style=for-the-badge" alt="Active">
   <img src="https://img.shields.io/badge/Access-Private%20%2F%20Invite--Only-e74c3c?style=for-the-badge" alt="Private, invite-only">
 </p>
@@ -90,39 +90,51 @@ this README is here so anyone with a key knows what the app actually does. Every
 
 ## 📊 RAM+ vs. the Original vs. Other Basic Managers
 
-RAM+ started as a fork of the original Roblox Account Manager and kept building from there. The RAM+ and Original RAM columns are based on each project's own README, not a full code audit of either. Other Basic Managers is a generic stand-in for the bare-bones alt managers floating around — add/launch accounts and not much else. Not a knock on the original — it's a solid base and still actively maintained — just what's different here.
+RAM+ started as a fork of the original Roblox Account Manager and kept building from there. The **RAM+** and
+**Original RAM** columns are based on each project's own README, not a
+full code audit of either. **Other Basic Managers** is a generic stand-in for the bare-bones alt managers floating
+around — add/launch accounts and not much else. Not a knock on the original — it's a solid base and still actively
+maintained — just what's different here.
 
-| Feature | 👑 RAM+ | 🐺 Original RAM | 📦 Other Basic Managers |
-|---|---|---|---|
-| Add, launch, and manage multiple accounts | Yes | Yes | Yes |
-| Cookie import (bulk, one per line) | Yes | Yes | Yes |
-| Bulk import via username:password | Yes | Yes | No |
-| Drag-to-sort accounts | Yes | Yes | No |
-| Account grouping | Yes | Yes | No |
-| Custom group ordering (type any name) | Yes | No — needs 1Main, 007 Bank-style prefixes | No |
-| Live Memory/CPU per account | Yes | No | No |
-| Online-in-game status dot | Yes | No | No |
-| Ctrl+K account search | Yes | No | No |
-| Per-account window position/size restore | Yes | No | No |
-| Built-in multiboxing grid (OpenMultiBoxing+) | Yes | No | No — usually needs a separate third-party tool |
-| Launch into a Place ID / server / VIP link | Yes | Yes | Yes |
-| Saved game/server presets | Yes | Yes | No |
-| Server browser with player counts | Yes | Yes | No |
-| Lowest Ping Server — one-click preset | Yes | No — manual, sort the server list yourself | No |
-| Shuffle JobId | Yes | Yes | No |
-| Anti-AFK (keeps a session alive while idle) | Yes | No — not in their feature list | No |
-| Reconnect/relaunch after getting kicked | Yes — clicks through the rejoin dialog directly | Yes — "Auto Relaunch," closes and reopens the whole client instead | No |
-| Anti-AFK Statistics window | Yes | No | No |
-| FPS unlock | Yes | No — documented, but doesn't actually work | No |
-| Per-account FPS override | Yes | No — global only | No |
-| Discord Rich Presence | Yes | No | No |
-| Local HTTP API | Yes | Yes | No |
-| Per-account RAM/CPU/time overlay | Yes | No | No |
-| Ghost process cleanup / memory trimming | Yes | No | No |
-| Theme editor | Yes | Yes — basic, "not much I can do about it with WinForms" by their own README | No |
-| Auto-recolor from a background image | Yes | No | No |
-| Animated RGB window border | Yes | No | No |
-| Smooth resizing with a background image set | Yes | No | No |
+<!-- Badge cells render as colored pills inside the table on GitHub -->
+[yes]: https://img.shields.io/badge/-Yes-2ecc71?style=flat-square
+[no]: https://img.shields.io/badge/-No-e74c3c?style=flat-square
+
+<div align="center">
+
+| Feature | 👑 **RAM+** | 🐺 **Original RAM** | 📦 **Other Basic Managers** |
+|---|:---:|:---:|:---:|
+| Add, launch, and manage multiple accounts | ![Yes][yes] | ![Yes][yes] | ![Yes][yes] |
+| Cookie import (bulk, one per line) | ![Yes][yes] | ![Yes][yes] | ![Yes][yes] |
+| Bulk import via username:password | ![Yes][yes] | ![Yes][yes] | ![No][no] |
+| Drag-to-sort accounts | ![Yes][yes] | ![Yes][yes] | ![No][no] |
+| Account grouping | ![Yes][yes] | ![Yes][yes] | ![No][no] |
+| **Custom group ordering** (type any name) | ![Yes][yes] | ![No][no] — needs `1Main`, `007 Bank`-style prefixes | ![No][no] |
+| **Live Memory/CPU per account** | ![Yes][yes] | ![No][no] | ![No][no] |
+| **Online-in-game status dot** | ![Yes][yes] | ![No][no] | ![No][no] |
+| **Ctrl+K account search** | ![Yes][yes] | ![No][no] | ![No][no] |
+| **Per-account window position/size restore** | ![Yes][yes] | ![No][no] | ![No][no] |
+| **Built-in multiboxing grid (OpenMultiBoxing+)** | ![Yes][yes] | ![No][no] | ![No][no] — usually needs a separate third-party tool |
+| Launch into a Place ID / server / VIP link | ![Yes][yes] | ![Yes][yes] | ![Yes][yes] |
+| Saved game/server presets | ![Yes][yes] | ![Yes][yes] | ![No][no] |
+| Server browser with player counts | ![Yes][yes] | ![Yes][yes] | ![No][no] |
+| **Lowest Ping Server** — one-click preset | ![Yes][yes] | ![No][no] — manual, sort the server list yourself | ![No][no] |
+| Shuffle JobId | ![Yes][yes] | ![Yes][yes] | ![No][no] |
+| **Anti-AFK** (keeps a session alive while idle) | ![Yes][yes] | ![No][no] — not in their feature list | ![No][no] |
+| Reconnect/relaunch after getting kicked | ![Yes][yes] — clicks through the rejoin dialog directly | ![Yes][yes] — "Auto Relaunch," closes and reopens the whole client instead | ![No][no] |
+| **Anti-AFK Statistics window** | ![Yes][yes] | ![No][no] | ![No][no] |
+| FPS unlock | ![Yes][yes] | ![No][no] — documented, but doesn't actually work | ![No][no] |
+| **Per-account FPS override** | ![Yes][yes] | ![No][no] — global only | ![No][no] |
+| **Discord Rich Presence** | ![Yes][yes] | ![No][no] | ![No][no] |
+| Local HTTP API | ![Yes][yes] | ![Yes][yes] | ![No][no] |
+| **Per-account RAM/CPU/time overlay** | ![Yes][yes] | ![No][no] | ![No][no] |
+| **Ghost process cleanup / memory trimming** | ![Yes][yes] | ![No][no] | ![No][no] |
+| Theme editor | ![Yes][yes] | ![Yes][yes] — basic, "not much I can do about it with WinForms" by their own README | ![No][no] |
+| **Auto-recolor from a background image** | ![Yes][yes] | ![No][no] | ![No][no] |
+| **Animated RGB window border** | ![Yes][yes] | ![No][no] | ![No][no] |
+| **Smooth resizing with a background image set** | ![Yes][yes] | ![No][no] | ![No][no] |
+
+</div>
 
 ## 🔑 Getting a Key
 
