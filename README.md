@@ -32,7 +32,8 @@ this README is here so anyone who gets a key knows what the app actually does. E
 - Ctrl+K search box to filter the account list instantly
 - Per-account description, alias, and display name editing
 - Uptime shown as Xd Xh Xm Xs once an account's been running 24h+
-- Drag accounts into Account Control to manage them from a separate browser-based panel
+- Account Generator (Add Account → Account Generator) — fills in Roblox's sign-up page and presses Sign Up while you solve each CAPTCHA by hand, then saves the new account with its password. Pick a username style (Name+No., Adj+Noun, GamerTag, Counting like `Name0001`, `Name0002`, or Custom), an automatic or custom password, a birth-year range, a delay range between accounts, retries, and up to 49 accounts. Made accounts are listed with Copy all and Save to file buttons
+- Drag accounts into Account Control to manage them from a separate panel — a card for every account with a round picture, its name and @username, an online/offline status and a check box, grouped like the main list
 
 ### Launching
 - Launch into a Place ID, a specific server (job ID), or a private server/share link
@@ -43,9 +44,14 @@ this README is here so anyone who gets a key knows what the app actually does. E
 
 ### Anti-AFK
 - Its own sidebar section, reliable across every open window (not just the first one), with automatic retries
-- Auto Reconnect — clicks through Roblox's own disconnect/rejoin dialog if a client gets kicked
+- Auto Reconnect — clicks through Roblox's own disconnect/rejoin dialog if a client gets kicked, jumping straight to the Rejoin button and only reacting to the real disconnect box
 - Anti-AFK Statistics window — total AFK time, actions performed, last action, auto-reconnects, longest session, last-cycle success count, and a live "next cycle" countdown
 - Optional "Always On Top" for the statistics window
+
+### Alerts & Updates
+- Discord alerts — paste your own webhook and get a message when an account disconnects or crashes (with its name, profile picture, how long it was open and its game), when the watchdog restarts a frozen window, or when Auto Relaunch reopens one; each can be switched off, with an optional ping
+- Health watchdog (off by default) — a Roblox window that stops responding or uses no CPU for a set number of minutes is closed and reopened in the game it was last in
+- Quiet updates — new versions download in the background and install the next time the app starts, with no question; the Check for updates button still asks, and the update window shows a What's new box with the release notes
 
 ### Quality of Life
 - Tools & Fixes — ghost process cleanup, memory trimming (manual or on an interval), and installer popup prevention (quarantines Roblox's bundled installer executables while the app is open)
@@ -57,13 +63,15 @@ this README is here so anyone who gets a key knows what the app actually does. E
 
 ### OpenMultiBoxing+
 - Built-in multiboxing, in its own sidebar entry ("OMB") — assign each account a fixed slot and its Roblox window is moved there as soon as it opens, in any launch order, instead of depending on whatever order windows happened to appear in
-- Grid layout automatically picks the columns/rows closest to the chosen monitor's own shape for however many accounts are slotted — matched against old OpenMultiBoxing's own grid calculator across every count from 1 to 32 so it lays out exactly the same way
+- Grid layout automatically picks the columns/rows closest to the chosen monitor's own shape for however many accounts are slotted — matched against old OpenMultiBoxing's own grid calculator across every count from 1 to 32 so it lays out exactly the same way; up to 49 slots are supported, and when a crowded monitor can't hold that many windows at a readable size they keep a minimum size and overlap instead of shrinking away
 - Click a monitor on the built-in map to arrange windows on it; multi-monitor setups can hide the monitors they're not using from the map, with one-click Hide others / Show all buttons; each monitor shows a small number badge so they're never ambiguous
+- A "Use all shown monitors" tick box spreads the windows over every monitor shown in the Show: row, shared out by screen size — hide the 4th monitor and they spread over the other 3, and so on down to one
+- Drag a square on the map onto another to swap the two accounts' slots
 - Type a slot number that's already taken to insert there — everyone from that slot on shifts down one; an Exclude checkbox per account dims it, clears its slot, and closes the gap for everyone after it, without deleting the account
 - A slider numbers the first N accounts (in the same order as the main list) 1, 2, 3... in one drag, with a divider between groups so a multi-group account list stays readable
 - Snap into slot on launch — on by default; an account's window moves into its slot the moment it's detected running, no need to press Arrange yourself. Toggleable per setup if you'd rather arrange manually
 - Click an account name or its slot on the map to bring that window to the front; double-click to pop it back out to a normal window (its original frame, size, and position restored exactly) instead of staying locked in the grid. Arrange Running Windows / Unarrange Running Windows buttons do the same for every running window at once
-- Optional fullscreen mode (clicking an account fills its monitor), borderless windows, and OMB's own default hotkeys — Ctrl+F1-F10 to focus a slot, Ctrl+Shift+F1-F10 to swap it with slot 1, and Ctrl+Shift+C to arrange every running account into its slot
+- Optional fullscreen mode (clicking an account fills its monitor), borderless windows, and the Ctrl+Shift+C hotkey to arrange every running account into its slot
 - Its own window, independent of the main one, so it keeps running when the main window is minimized
 
 ### Theming
@@ -159,14 +167,14 @@ Select an account, paste a Place ID or game link, and press **Launch**. Add a se
 
 ### Updating
 
-RAM+ checks for a newer version a few seconds after it starts and offers **Update / Later**. You can also press **Check for updates** in Settings → General. Updating downloads the new version from this page, checks it, replaces the exe, and restarts — your key, settings, and accounts are left alone. (Versions older than 1.0.2 need one manual update: download the newest zip from [Releases](../../releases) and replace the exe.)
+RAM+ checks for a newer version a few seconds after it starts. By default it downloads the new version quietly in the background and installs it the next time you start the app, with no question (switch this off with **Install updates quietly on next start** in Settings → General), otherwise it offers **Update / Later**. You can also press **Check for updates** in Settings → General. Updating downloads the new version from this page, checks it, replaces the exe, and restarts — your key, settings, and accounts are left alone. (Versions older than 1.0.2 need one manual update: download the newest zip from [Releases](../../releases) and replace the exe.)
 
 ## 🔒 Security and Privacy
 
 Session cookies are the keys to your accounts, so the app treats them that way.
 
 - Encrypted at rest, password-protected on first run.
-- No telemetry, no external server. The app talks to Roblox's own API, to GitHub for the app's own updates, and to Discord only if a webhook is configured for release announcements. The optional Remote Dashboard uses a free private tunnel, and only while you have it turned on.
+- No telemetry, no external server. The app talks to Roblox's own API, to GitHub for the app's own updates, and to Discord only if a webhook is configured (for release announcements, or for the alerts you set up yourself). The optional Remote Dashboard uses a free private tunnel, and only while you have it turned on.
 - Access is key-gated, and every key is bound to one device.
 
 ## ❓ FAQ
