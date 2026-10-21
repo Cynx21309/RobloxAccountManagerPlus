@@ -51,7 +51,7 @@ this README is here so anyone who gets a key knows what the app actually does. E
 ### Alerts & Updates
 - Discord alerts — paste your own webhook and get a message when an account disconnects or crashes (with its name, profile picture, how long it was open and its game), when the watchdog restarts a frozen window, or when Auto Relaunch reopens one; each can be switched off, with an optional ping
 - Health watchdog (off by default) — a Roblox window that stops responding or uses no CPU for a set number of minutes is closed and reopened in the game it was last in
-- Quiet updates — new versions download in the background and install the next time the app starts, with no question; the Check for updates button still asks, and the update window shows a What's new box with the release notes
+- Quiet updates — new versions download in the background and install the next time the app starts, with no question; the Check for updates button still asks
 
 ### Quality of Life
 - Tools & Fixes — ghost process cleanup, memory trimming (manual or on an interval), and installer popup prevention (quarantines Roblox's bundled installer executables while the app is open)
