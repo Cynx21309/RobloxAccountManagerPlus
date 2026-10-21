@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/.NET%20Framework-4.7.2-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET Framework 4.7.2">
   <img src="https://img.shields.io/github/v/release/Cynx21309/RobloxAccountManagerPlus?style=for-the-badge&label=Version&color=2ecc71" alt="Latest version">
   <img src="https://img.shields.io/badge/Status-Active-2ecc71?style=for-the-badge" alt="Active">
-  <img src="https://img.shields.io/badge/Access-Private%20%2F%20Invite--Only-e74c3c?style=for-the-badge" alt="Private, invite-only">
+  <img src="https://img.shields.io/badge/Access-Public%20%2F%20Key%20Only-3498db?style=for-the-badge" alt="Public download, key only">
 </p>
 
 [✨ Features](#-features) • [📊 Comparison](#-ram-vs-the-original-vs-other-basic-managers) • [🔑 Getting a Key](#-getting-a-key) • [🚀 Getting Started](#-getting-started) • [🔒 Security](#-security-and-privacy) • [❓ FAQ](#-faq)
@@ -19,9 +19,9 @@
 
 ---
 
-This is a **private, invite-only** tool — the app won't open without a license key (see
+The download is **public**, but the app is **key only** — it won't open without a license key (see
 [Getting a Key](#-getting-a-key)). It's not open source and isn't accepting outside contributions;
-this README is here so anyone with a key knows what the app actually does. Every version is on the
+this README is here so anyone who gets a key knows what the app actually does. Every version is on the
 [Releases](../../releases) page.
 
 ## ✨ Features
