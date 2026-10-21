@@ -13,6 +13,8 @@
   <img src="https://img.shields.io/badge/Access-Private%20%2F%20Invite--Only-e74c3c?style=for-the-badge" alt="Private, invite-only">
 </p>
 
+[✨ Features](#-features) • [📊 Comparison](#-ram-vs-the-original-vs-other-basic-managers) • [🔑 Getting a Key](#-getting-a-key) • [🚀 Getting Started](#-getting-started) • [🔒 Security](#-security-and-privacy) • [❓ FAQ](#-faq)
+
 </div>
 
 ---
@@ -154,3 +156,25 @@ Session cookies are the keys to your accounts, so the app treats them that way.
 - Encrypted at rest, password-protected on first run.
 - No telemetry, no external server. The app talks to Roblox's own API, to GitHub for the app's own updates, and to Discord only if a webhook is configured for release announcements. The optional Remote Dashboard uses a free private tunnel, and only while you have it turned on.
 - Access is key-gated, and every key is bound to one device.
+
+## ❓ FAQ
+
+**Where do my cookies go?**
+Nowhere but your own disk, encrypted, and Roblox's official endpoints when the app checks a session or launches a game — the same as your browser does.
+
+**Can I run more than one Roblox client at once?**
+Yes, that's the whole point — launch as many accounts as you want side by side.
+
+**Is there an auto-updater?**
+Yes. RAM+ checks for a newer version a few seconds after it starts and offers to install it for you. You can also press **Check for updates** in Settings → General. Versions older than 1.0.2 need one manual update first: download the newest zip from [Releases](../../releases) and replace the exe.
+
+**Does this break Roblox's Terms of Service?**
+The app does what you could do by hand in a browser: sign in and launch games, through official endpoints. Automation features (Anti-AFK, etc.) are a grey area, so use them responsibly and at your own risk.
+
+---
+
+<div align="center">
+
+*Not affiliated with Roblox Corporation. You are responsible for your own accounts.*
+
+</div>
