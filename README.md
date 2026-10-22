@@ -33,7 +33,7 @@ this README is here so anyone who gets a key knows what the app actually does. E
 - Per-account description, alias, and display name editing
 - Uptime shown as Xd Xh Xm Xs once an account's been running 24h+
 - Account Generator (Add Account → Account Generator) — fills in Roblox's sign-up page and presses Sign Up while you solve each CAPTCHA by hand, then saves the new account with its password. Pick a username style (Name+No., Adj+Noun, GamerTag, Counting like `Name0001`, `Name0002`, or Custom), an automatic or custom password, a birth-year range, a delay range between accounts, retries, and up to 49 accounts. Made accounts are listed with Copy all and Save to file buttons
-- Drag accounts into Account Control to manage them from a separate panel — a card for every account with a round picture, its name and @username, an online/offline status and a check box, grouped like the main list
+- Drag accounts into Account Control to manage them from a separate panel (and drag the cards into any order) — a card for every account with a round picture, its name and @username, an online/offline status and a check box, grouped like the main list
 
 ### Launching
 - Launch into a Place ID, a specific server (job ID), or a private server/share link
