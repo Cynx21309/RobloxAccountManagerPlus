@@ -51,7 +51,7 @@ this README is here so anyone who gets a key knows what the app actually does. E
 ### Alerts & Updates
 - Discord alerts — paste your own webhook and get a message when an account disconnects or crashes (with its name, profile picture, how long it was open and its game), when the watchdog restarts a frozen window, or when Auto Relaunch reopens one; each can be switched off, with an optional ping
 - Health watchdog (off by default) — a Roblox window that stops responding or uses no CPU for a set number of minutes is closed and reopened in the game it was last in
-- Quiet updates — new versions download in the background and install the next time the app starts, with no question; the Check for updates button still asks
+- Update question — when a newer version exists RAM+ asks Yes / No a few seconds after it starts; nothing is downloaded or installed without a yes
 
 ### Quality of Life
 - Tools & Fixes — ghost process cleanup, memory trimming (manual or on an interval), and installer popup prevention (quarantines Roblox's bundled installer executables while the app is open)
@@ -167,7 +167,7 @@ Select an account, paste a Place ID or game link, and press **Launch**. Add a se
 
 ### Updating
 
-RAM+ checks for a newer version a few seconds after it starts. By default it downloads the new version quietly in the background and installs it the next time you start the app, with no question (switch this off with **Install updates quietly on next start** in Settings → General), otherwise it offers **Update / Later**. You can also press **Check for updates** in Settings → General. Updating downloads the new version from this page, checks it, replaces the exe, and restarts — your key, settings, and accounts are left alone. (Versions older than 1.0.2 need one manual update: download the newest zip from [Releases](../../releases) and replace the exe.)
+RAM+ checks for a newer version a few seconds after it starts and asks **Yes / No** — nothing is downloaded or installed without a yes. You can also press **Check for updates** in Settings → General. Updating downloads the new version from this page, checks it, replaces the exe, and restarts — your key, settings, and accounts are left alone. (Versions older than 1.0.2 need one manual update: download the newest zip from [Releases](../../releases) and replace the exe.)
 
 ## 🔒 Security and Privacy
 
