@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Access-Public%20%2F%20Key%20Only-3498db?style=for-the-badge" alt="Public download, key only">
 </p>
 
-[✨ Features](#features) • [📊 Comparison](#-ram-vs-the-original-vs-other-basic-managers) • [🔑 Getting a Key](#-getting-a-key) • [🚀 Getting Started](#-getting-started) • [🔒 Security](#-security-and-privacy) • [❓ FAQ](#-faq)
+[🖼️ Screenshots](#-screenshots) • [✨ Features](#features) • [📊 Comparison](#-ram-vs-the-original-vs-other-basic-managers) • [🔑 Getting a Key](#-getting-a-key) • [🚀 Getting Started](#-getting-started) • [🔒 Security](#-security-and-privacy) • [❓ FAQ](#-faq)
 
 </div>
 
@@ -22,63 +22,71 @@ The download is **public**, but the app is **key only** — it won't open withou
 [Getting a key](#-getting-a-key)). It's not open source and isn't accepting outside contributions;
 this README is here so anyone with a key knows what the app actually does.
 
+## 🖼️ Screenshots
+
+<!-- TODO: drop screenshots in here, e.g.
+<div align="center">
+<img src="docs/screenshots/accounts.png" alt="RAM+ Accounts list" width="100%">
+</div>
+-->
+
 ## ✨ Features
 
 **Accounts**
-- Add, group, launch, and manage any number of Roblox accounts from one list
-- Live Memory/CPU usage and an online-in-game status dot per running account
-- Ctrl+K search box to filter the account list instantly
-- Per-account description, alias, and display name editing
-- Uptime shown as `Xd Xh Xm Xs` once an account's been running 24h+
-- **Account Generator** (Add Account -> Account Generator) — fills in Roblox's sign-up page and presses Sign Up
+- ➕ Add, group, launch, and manage any number of Roblox accounts from one list
+- 📊 Live Memory/CPU usage and an online-in-game status dot per running account
+- ⌨️ Ctrl+K search box to filter the account list instantly
+- ✏️ Per-account description, alias, and display name editing
+- ⏱️ Uptime shown as `Xd Xh Xm Xs` once an account's been running 24h+
+- 🤖 **Account Generator** (Add Account -> Account Generator) — fills in Roblox's sign-up page and presses Sign Up
   while **you solve each CAPTCHA by hand**; the account is then saved to RAM+ with its password
-- Drag accounts into **Account Control** to manage them from a separate panel, grouped like the main list
+- 🎛️ Drag accounts into **Account Control** to manage them from a separate panel, grouped like the main list
 
 **Launching**
-- Launch into a Place ID, a specific server (job ID), or a private server/share link
-- Tick several accounts to launch them one after another
-- Saved game/server presets so you don't have to re-paste the same link every time
-- Server browser with player counts, and a Follow-a-player option
-- **Restore Window Position** — puts each account's window back exactly where it was last time
+- 🎮 Launch into a Place ID, a specific server (job ID), or a private server/share link
+- ✅ Tick several accounts to launch them one after another
+- 💾 Saved game/server presets so you don't have to re-paste the same link every time
+- 🌐 Server browser with player counts, and a Follow-a-player option
+- 🪟 **Restore Window Position** — puts each account's window back exactly where it was last time
 
 **Anti-AFK**
-- Its own sidebar section, reliable across every open window, with automatic retries
-- Auto Reconnect — clicks through Roblox's own disconnect dialog if a client gets kicked
-- **Anti-AFK Statistics** window — total AFK time, actions performed, auto-reconnects, longest session, live "next cycle" countdown
+- 💤 Its own sidebar section, reliable across every open window, with automatic retries
+- 🔌 Auto Reconnect — clicks through Roblox's own disconnect dialog if a client gets kicked
+- 📈 **Anti-AFK Statistics** window — total AFK time, actions performed, auto-reconnects, longest session, live "next cycle" countdown
 
 **Macro Playback & Auto Clicker**
-- Record your own mouse and keyboard input on one account, then play it back across every other
+- 🔴 Record your own mouse and keyboard input on one account, then play it back across every other
   running account using real input injection — not a screen-position guess
-- A GS Auto Clicker-style repeater that cycles through a whole list of saved positions
+- 🖱️ A GS Auto Clicker-style repeater that cycles through a whole list of saved positions
 
 **Quality of Life**
-- Ghost process cleanup, memory trimming, installer popup prevention
-- Window shrink/resize tools, auto-mute audio, force low graphics, window position restore
-- Auto-clean old logs, remove outdated Roblox versions, clean crash dumps
-- Discord Rich Presence while the app is open
-- Global FPS cap or a per-account override, plus a FastFlags editor and an Advanced Settings tab —
+- 👻 Ghost process cleanup, memory trimming, installer popup prevention
+- 🪟 Window shrink/resize tools, auto-mute audio, force low graphics, window position restore
+- 🧹 Auto-clean old logs, remove outdated Roblox versions, clean crash dumps
+- 🎙️ Discord Rich Presence while the app is open
+- 🎚️ Global FPS cap or a per-account override, plus a FastFlags editor and an Advanced Settings tab —
   all written straight into Roblox's own files
-- Optional RAM/CPU/Time overlay on each Roblox window
-- A live System Resources card for the whole app, right in the sidebar
+- 📺 Optional RAM/CPU/Time overlay on each Roblox window
+- 📊 A live System Resources card for the whole app, right in the sidebar
 
 **OpenMultiBoxing+**
-- Built-in multiboxing — each account gets a fixed slot and its window snaps there the instant it launches
-- Auto grid layout, up to 49 slots; click a monitor on the built-in map to arrange windows there
-- Drag slots to swap accounts, or type a slot number to insert one — **Exclude** drops an account from
+- 🧩 Built-in multiboxing — each account gets a fixed slot and its window snaps there the instant it launches
+- 🔢 Auto grid layout, up to 49 slots; click a monitor on the built-in map to arrange windows there
+- 🔀 Drag slots to swap accounts, or type a slot number to insert one — **Exclude** drops an account from
   the rotation without deleting it (handy for keeping your main out while alts still arrange)
-- Its own window, independent of the main one
+- 🪄 Its own window, independent of the main one
 
 **Theming**
-- Full Theme Editor — colors, borders, and backgrounds for every part of the UI
-- Custom background image, **Match Colors** auto-recolor from it, animated RGB border
+- 🎨 Full Theme Editor — colors, borders, and backgrounds for every part of the UI
+- 🖼️ Custom background image, **Match Colors** auto-recolor from it, animated RGB border
 
 **Utilities**
-- Browse Games, Private Server Manager, Account Control, Account Utilities
-- **Outfit Dresser** — browse an account's inventory, double-click an item to wear or unwear it, or
+- 🔎 Browse Games, Private Server Manager, Account Control, Account Utilities
+- 👕 **Outfit Dresser** — browse an account's inventory, double-click an item to wear or unwear it, or
   share a full outfit via code
 
 **Remote Dashboard**
-- A password-protected website built into RAM+: live account tiles, stat cards and a history chart,
+- 📱 A password-protected website built into RAM+: live account tiles, stat cards and a history chart,
   launch/close per account or for everything, and a shareable link that works from any network
   through a free Cloudflare tunnel — no port forwarding
 
@@ -142,16 +150,16 @@ Once activated, the title bar shows how much time is left on your key.
 
 ## 🚀 Getting Started
 
-1. Get the exe and a license key (see above).
-2. Run it, enter your key and Discord username, and choose **Add account**.
+1️⃣ Get the exe and a license key (see above).
+2️⃣ Run it, enter your key and Discord username, and choose **Add account**.
 
 ### Adding an account
 
-- **Browser** (recommended) opens Roblox's own login page in a real, separate browser window. Sign in
+- 🔹 **Browser** (recommended) opens Roblox's own login page in a real, separate browser window. Sign in
   as usual — captchas and 2-step verification just work, and your password never passes through the app.
-- **Password** signs in through Roblox's login service directly (user:pass, one per line for bulk adds).
+- 🔹 **Password** signs in through Roblox's login service directly (user:pass, one per line for bulk adds).
   Quick, but if Roblox throws a captcha at it you'll need Browser instead.
-- **Cookie** takes a `.ROBLOSECURITY` value you already have — paste one per line to bulk-import.
+- 🔹 **Cookie** takes a `.ROBLOSECURITY` value you already have — paste one per line to bulk-import.
 
 ### Launching
 
@@ -162,10 +170,10 @@ private server link to join a specific server.
 
 Session cookies are the keys to your accounts, so the app treats them that way.
 
-- **Encrypted at rest**, password-protected on first run.
-- **No telemetry, no external server.** The app talks to Roblox's own API, to GitHub for the app's own
+- 🔐 **Encrypted at rest**, password-protected on first run.
+- 🚫 **No telemetry, no external server.** The app talks to Roblox's own API, to GitHub for the app's own
   updates, and to Discord only if a webhook is configured for release announcements.
-- **Access is key-gated**, and every key is bound to one device.
+- 🔑 **Access is key-gated**, and every key is bound to one device.
 
 ## 📝 Changelog
 
