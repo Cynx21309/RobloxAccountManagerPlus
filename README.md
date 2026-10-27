@@ -24,16 +24,18 @@ this README is here so anyone with a key knows what the app actually does.
 
 ## 🖼️ Screenshots
 
-Every window, tab, and menu in the app, grouped into four parts:
+Every window, tab, and menu in the app, grouped into five parts:
 
 <div align="center">
-<img src="docs/screenshots/montage-part1-accounts.png" alt="RAM+ screenshots: Accounts & Launching" width="100%">
+<img src="docs/screenshots/collage-part1-accounts.png" alt="RAM+ screenshots: Accounts & Launching" width="100%">
 <br><br>
-<img src="docs/screenshots/montage-part2-automation.png" alt="RAM+ screenshots: Automation (Anti-AFK, Macro, Auto Clicker)" width="100%">
+<img src="docs/screenshots/collage-part2-automation.png" alt="RAM+ screenshots: Automation (Anti-AFK, Macro, Auto Clicker)" width="100%">
 <br><br>
-<img src="docs/screenshots/montage-part3-omb-theming.png" alt="RAM+ screenshots: OpenMultiBoxing+ & Theming" width="100%">
+<img src="docs/screenshots/collage-part3-omb-theming.png" alt="RAM+ screenshots: OpenMultiBoxing+ & Theming" width="100%">
 <br><br>
-<img src="docs/screenshots/montage-part4-qol-fps-outfits.png" alt="RAM+ screenshots: Quality of Life, FPS/FastFlags & Outfit Dresser" width="100%">
+<img src="docs/screenshots/collage-part4-qol-fps-outfits.png" alt="RAM+ screenshots: Quality of Life, FPS/FastFlags & Outfit Dresser" width="100%">
+<br><br>
+<img src="docs/screenshots/collage-part5-remote-dashboard.png" alt="RAM+ screenshots: Remote Dashboard" width="100%">
 </div>
 
 ## ✨ Features
