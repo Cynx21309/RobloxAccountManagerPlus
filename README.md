@@ -127,6 +127,8 @@ just what's different here.
 | **Ctrl+K account search** | ![Yes][yes] | ![No][no] | ![No][no] |
 | **Per-account window position/size restore** | ![Yes][yes] | ![No][no] | ![No][no] |
 | **Built-in multiboxing grid (OpenMultiBoxing+)** | ![Yes][yes] | ![No][no] | ![No][no] — usually needs a separate third-party tool |
+| **Live View** — real live video preview of every running account's window in one place | ![Yes][yes] | ![No][no] | ![No][no] |
+| **Egg Hatch Calculator** — combined eggs/min, /hour, /day across multiple accounts | ![Yes][yes] | ![No][no] | ![No][no] |
 | **Macro Playback** — record & replay real input across accounts | ![Yes][yes] | ![No][no] | ![No][no] |
 | **Auto Clicker** — repeating clicker, cycles through saved positions | ![Yes][yes] | ![No][no] | ![No][no] |
 | Launch into a Place ID / server / VIP link | ![Yes][yes] | ![Yes][yes] | ![Yes][yes] |
