@@ -24,7 +24,7 @@ this README is here so anyone with a key knows what the app actually does.
 
 ## 🖼️ Screenshots
 
-Every window, tab, and menu in the app, grouped into five parts:
+Every window, tab, and menu in the app, grouped into six parts:
 
 <div align="center">
 <img src="docs/screenshots/collage-part1-accounts.png" alt="RAM+ screenshots: Accounts & Launching" width="100%">
@@ -36,6 +36,8 @@ Every window, tab, and menu in the app, grouped into five parts:
 <img src="docs/screenshots/collage-part4-qol-fps-outfits.png" alt="RAM+ screenshots: Quality of Life, FPS/FastFlags & Outfit Dresser" width="100%">
 <br><br>
 <img src="docs/screenshots/collage-part5-remote-dashboard.png" alt="RAM+ screenshots: Remote Dashboard" width="100%">
+<br><br>
+<img src="docs/screenshots/collage-part6-live-view.png" alt="RAM+ screenshots: Live View (workspace tab on top, Egg Hatch Calculator below)" width="100%">
 </div>
 
 ## ✨ Features
