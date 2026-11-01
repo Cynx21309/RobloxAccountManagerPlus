@@ -63,11 +63,19 @@ Every window, tab, and menu in the app, grouped into six parts:
 - 💤 Its own sidebar section, reliable across every open window, with automatic retries
 - 🔌 Auto Reconnect — clicks through Roblox's own disconnect dialog if a client gets kicked
 - 📈 **Anti-AFK Statistics** window — total AFK time, actions performed, auto-reconnects, longest session, live "next cycle" countdown
+- ⚡ Quick on/off toggles for Anti-AFK and Auto-Reconnect right on the main screen, with the current
+  action/interval and a live "next cycle" countdown shown right there — no separate window needed
+
+**Live View**
+- 🖥️ A live, real-time preview tile for every running account's window in one place — click a tile to focus that window
+- 🧹 **Minimize All** / **Bring Roblox to Front** buttons for every open account at once, alongside Reconnect/Remove previews
+- 🥚 **Egg Hatch Calculator** tab — combined eggs/min, /hour, /day across every account currently in that game
 
 **Macro Playback & Auto Clicker**
 - 🔴 Record your own mouse and keyboard input on one account, then play it back across every other
   running account using real input injection — not a screen-position guess
 - 🖱️ A GS Auto Clicker-style repeater that cycles through a whole list of saved positions
+- 🔑 A quick Enabled/Disabled toggle for the Auto Clicker's hotkey, right on the main screen
 
 **Quality of Life**
 - 👻 Ghost process cleanup, memory trimming, installer popup prevention
@@ -141,7 +149,7 @@ just what's different here.
 | **Anti-AFK Statistics window** | ![Yes][yes] | ![No][no] | ![No][no] |
 | FPS unlock | ![Yes][yes] | ![No][no] — documented, but doesn't actually work | ![No][no] |
 | **Per-account FPS override** | ![Yes][yes] | ![No][no] — global only | ![No][no] |
-| **FastFlags editor** — add/edit FastFlags, auto-reapplied before every launch | ![Yes][yes] | ![No][no] | ![No][no] |
+| **FastFlags editor** — add/edit FastFlags, applied on demand (never silently in the background) | ![Yes][yes] | ![No][no] | ![No][no] |
 | **Discord Rich Presence** | ![Yes][yes] | ![No][no] | ![No][no] |
 | Local HTTP API | ![Yes][yes] | ![Yes][yes] | ![No][no] |
 | **Per-account RAM/CPU/time overlay** | ![Yes][yes] | ![No][no] | ![No][no] |
