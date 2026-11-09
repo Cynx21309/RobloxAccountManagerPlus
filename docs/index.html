@@ -184,6 +184,7 @@
       <span class="badge">💸 Free download</span>
       <span class="badge">🚫 No telemetry</span>
       <span class="badge live" id="discordStat"><span class="dot"></span> Loading community…</span>
+      <span class="badge live" id="onlineStat"><span class="dot"></span> Loading live users…</span>
     </div>
     <div class="cta">
       <a class="btn btn-primary" href="https://github.com/Cynx21309/RobloxAccountManagerPlus/releases/latest">⬇ Download RAM+</a>
@@ -403,6 +404,28 @@
       })
       .catch(function(){
         stat.outerHTML = '<span class="badge">💬 Active Discord community</span>';
+      });
+  }
+
+  // live "people using RAM+ right now" count -- same Cloudflare Worker that backs the in-app "RAM+
+  // Online" sidebar pill (desktop client heartbeats every 45s, counter prunes anyone not seen in 90s).
+  // X-RAM-Key is a low-stakes anti-spam speed bump, not real auth -- it's already baked into the
+  // shipped (obfuscated) desktop client either way, so there's nothing gained by hiding it here.
+  var onlineStat = document.getElementById('onlineStat');
+  if (onlineStat) {
+    fetch('https://ram-online-counter.cynx21309.workers.dev/count', {
+      headers: { 'X-RAM-Key': 'ram-plus-presence-v1' }
+    })
+      .then(function(r){ return r.ok ? r.json() : Promise.reject(r.status); })
+      .then(function(d){
+        if (typeof d.count === 'number') {
+          onlineStat.innerHTML = '<span class="dot"></span> ' + d.count.toLocaleString() + ' using RAM+ right now';
+        } else {
+          throw new Error('missing count');
+        }
+      })
+      .catch(function(){
+        onlineStat.remove();
       });
   }
 })();
