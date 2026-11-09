@@ -193,7 +193,6 @@ Session cookies are the keys to your accounts, so the app treats them that way.
 - 🔐 **Encrypted at rest**, password-protected on first run.
 - 🚫 **No telemetry, no external server.** The app talks to Roblox's own API, to GitHub for the app's own
   updates, and to Discord only if a webhook is configured for release announcements.
-- 🔑 **Access is key-gated**, and every key is bound to one device.
 
 ## 📝 Changelog
 
