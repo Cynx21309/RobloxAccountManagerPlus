@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roblox Account Manager+ — Free Multi-Account Manager for Roblox (Windows)</title>
+<meta name="description" content="Roblox Account Manager+ (RAM+) is a free Windows app for running and managing many Roblox accounts at once: multiboxing, Anti-AFK, macro playback, live previews, and a remote dashboard. Download free.">
+<link rel="canonical" href="https://cynx21309.github.io/RobloxAccountManagerPlus/">
+<meta name="robots" content="index,follow">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Roblox Account Manager+ — Free Multi-Account Manager for Roblox">
+<meta property="og:description" content="Run, automate, and watch dozens of Roblox accounts from one app. Multiboxing, Anti-AFK, macro playback, live window previews, remote dashboard — free on Windows.">
+<meta property="og:url" content="https://cynx21309.github.io/RobloxAccountManagerPlus/">
+<meta property="og:image" content="https://cynx21309.github.io/RobloxAccountManagerPlus/screenshots/collage-part1-accounts.png">
+<meta property="og:site_name" content="Roblox Account Manager+">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Roblox Account Manager+ — Free Multi-Account Manager for Roblox">
+<meta name="twitter:description" content="Run, automate, and watch dozens of Roblox accounts from one app. Free on Windows.">
+<meta name="twitter:image" content="https://cynx21309.github.io/RobloxAccountManagerPlus/screenshots/collage-part1-accounts.png">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%F0%9F%91%91</text></svg>">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Roblox Account Manager+",
+  "alternateName": "RAM+",
+  "operatingSystem": "Windows",
+  "applicationCategory": "UtilitiesApplication",
+  "description": "A free Windows app for managing, launching, and automating many Roblox accounts from one place — multiboxing, Anti-AFK, macro playback, live window previews, and a remote web dashboard.",
+  "url": "https://cynx21309.github.io/RobloxAccountManagerPlus/",
+  "downloadUrl": "https://github.com/Cynx21309/RobloxAccountManagerPlus/releases/latest",
+  "image": "https://cynx21309.github.io/RobloxAccountManagerPlus/screenshots/collage-part1-accounts.png",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "author": { "@type": "Person", "name": "Cynx21309" }
+}
+</script>
+
+<style>
+  :root{
+    --bg:#0b0e14; --bg2:#121622; --card:#161b29; --border:#242b3d;
+    --text:#e8ebf4; --muted:#9aa3bb; --gold:#f2c14e; --gold2:#ffd97a;
+    --accent:#6c8bff; --green:#2ecc71;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:radial-gradient(1200px 600px at 50% -10%, #1a2036 0%, var(--bg) 60%);
+    color:var(--text); font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.55;
+  }
+  a{color:var(--gold)}
+  .wrap{max-width:1080px; margin:0 auto; padding:0 20px}
+  header.hero{padding:64px 0 40px; text-align:center}
+  .crown{font-size:48px}
+  h1{font-size:clamp(28px,5vw,46px); margin:10px 0 8px; letter-spacing:-0.02em}
+  h1 .accent{background:linear-gradient(90deg,var(--gold),var(--gold2)); -webkit-background-clip:text; background-clip:text; color:transparent}
+  .tagline{color:var(--muted); font-size:clamp(15px,2.2vw,19px); max-width:640px; margin:0 auto 28px}
+  .badges{display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin-bottom:28px}
+  .badge{font-size:12px; padding:5px 10px; border:1px solid var(--border); border-radius:999px; color:var(--muted); background:var(--bg2)}
+  .cta{display:flex; gap:14px; justify-content:center; flex-wrap:wrap}
+  .btn{display:inline-flex; align-items:center; gap:8px; padding:13px 26px; border-radius:10px; font-weight:600; text-decoration:none; font-size:15px; transition:transform .15s ease, box-shadow .15s ease}
+  .btn:hover{transform:translateY(-2px)}
+  .btn-primary{background:linear-gradient(135deg,var(--gold),var(--gold2)); color:#1a1200; box-shadow:0 8px 24px -8px rgba(242,193,78,.5)}
+  .btn-secondary{background:var(--card); color:var(--text); border:1px solid var(--border)}
+  nav.pill{display:flex; flex-wrap:wrap; gap:6px; justify-content:center; margin-top:30px}
+  nav.pill a{font-size:13px; color:var(--muted); padding:6px 12px; border-radius:999px; border:1px solid var(--border); text-decoration:none}
+  nav.pill a:hover{color:var(--text); border-color:var(--accent)}
+
+  section{padding:48px 0; border-top:1px solid var(--border)}
+  h2{font-size:clamp(22px,3.5vw,30px); margin:0 0 6px}
+  .section-sub{color:var(--muted); margin:0 0 28px; max-width:640px}
+
+  .shots img{width:100%; border-radius:14px; border:1px solid var(--border); display:block; margin-bottom:22px; box-shadow:0 20px 50px -20px rgba(0,0,0,.6)}
+
+  .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px}
+  .card{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:20px}
+  .card h3{margin:0 0 8px; font-size:16px}
+  .card p{margin:0; color:var(--muted); font-size:14px}
+
+  table{width:100%; border-collapse:collapse; font-size:14px; background:var(--card); border-radius:14px; overflow:hidden}
+  th,td{padding:10px 14px; border-bottom:1px solid var(--border); text-align:left}
+  th{color:var(--muted); font-weight:600; font-size:13px; text-transform:uppercase; letter-spacing:.03em}
+  td.yes{color:var(--green); font-weight:600}
+  td.no{color:#6b7280}
+  tr:last-child td{border-bottom:none}
+
+  .faq details{background:var(--card); border:1px solid var(--border); border-radius:12px; padding:14px 18px; margin-bottom:10px}
+  .faq summary{cursor:pointer; font-weight:600}
+  .faq p{color:var(--muted); margin:10px 0 0}
+
+  footer{padding:40px 0 60px; text-align:center; color:var(--muted); font-size:13px}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="crown">👑</div>
+    <h1>Roblox Account <span class="accent">Manager+</span></h1>
+    <p class="tagline">Run, automate, and keep an eye on dozens of Roblox accounts from one app — multiboxing, Anti-AFK, macro playback, live previews, and a remote dashboard. Free, for Windows.</p>
+    <div class="badges">
+      <span class="badge">Windows</span>
+      <span class="badge">Free download</span>
+      <span class="badge">Active development</span>
+      <span class="badge">No telemetry</span>
+    </div>
+    <div class="cta">
+      <a class="btn btn-primary" href="https://github.com/Cynx21309/RobloxAccountManagerPlus/releases/latest">⬇ Download RAM+</a>
+      <a class="btn btn-secondary" href="https://discord.gg/5ErzTB4qvP">Join the Discord</a>
+    </div>
+    <nav class="pill">
+      <a href="#screenshots">Screenshots</a>
+      <a href="#features">Features</a>
+      <a href="#comparison">Comparison</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://github.com/Cynx21309/RobloxAccountManagerPlus">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<section id="screenshots">
+  <div class="wrap">
+    <h2>Every window, in one scroll</h2>
+    <p class="section-sub">Accounts, automation, multiboxing, theming, the remote dashboard, and Live View.</p>
+    <div class="shots">
+      <img src="screenshots/collage-part1-accounts.png" alt="RAM+ accounts list and launching" loading="lazy" width="1600" height="900">
+      <img src="screenshots/collage-part2-automation.png" alt="RAM+ Anti-AFK, macro playback and auto clicker" loading="lazy" width="1600" height="900">
+      <img src="screenshots/collage-part3-omb-theming.png" alt="RAM+ OpenMultiBoxing+ grid and theme editor" loading="lazy" width="1600" height="900">
+      <img src="screenshots/collage-part4-qol-fps-outfits.png" alt="RAM+ quality of life tools, FPS and FastFlags, outfit dresser" loading="lazy" width="1600" height="900">
+      <img src="screenshots/collage-part5-remote-dashboard.png" alt="RAM+ remote web dashboard" loading="lazy" width="1600" height="900">
+      <img src="screenshots/collage-part6-live-view.png" alt="RAM+ Live View and Egg Hatch Calculator" loading="lazy" width="1600" height="900">
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="wrap">
+    <h2>What it does</h2>
+    <p class="section-sub">Every core feature, at a glance.</p>
+    <div class="grid">
+      <div class="card"><h3>🎮 Multi-account launching</h3><p>Launch into a Place ID, a specific server, or a private server link — tick several accounts to launch them one after another, with saved presets.</p></div>
+      <div class="card"><h3>🧩 OpenMultiBoxing+</h3><p>Built-in multiboxing with a fixed-slot grid, up to 49 slots, auto layout, and drag-to-swap — no separate third-party tool.</p></div>
+      <div class="card"><h3>💤 Anti-AFK</h3><p>Keeps sessions alive with automatic retries, auto-reconnect through disconnect dialogs, and a live statistics window.</p></div>
+      <div class="card"><h3>🖥️ Live View</h3><p>A real-time preview tile for every running account's window in one place, plus an Egg Hatch Calculator across all of them.</p></div>
+      <div class="card"><h3>🔴 Macro playback & Auto Clicker</h3><p>Record real mouse/keyboard input on one account and replay it across every other running account via real input injection.</p></div>
+      <div class="card"><h3>📱 Remote Dashboard</h3><p>A password-protected website built into RAM+ — live account tiles and stats, launch/close from anywhere, no port forwarding.</p></div>
+      <div class="card"><h3>🎨 Full theming</h3><p>Colors, borders and backgrounds for every part of the UI, auto-recolor from a background image, animated RGB border.</p></div>
+      <div class="card"><h3>👻 Quality of life</h3><p>Ghost process cleanup, memory trimming, FPS cap/override, a FastFlags editor, Discord Rich Presence, live resource monitoring.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="comparison">
+  <div class="wrap">
+    <h2>RAM+ vs. basic alt managers</h2>
+    <p class="section-sub">Not a full code audit — just what sets RAM+ apart from the bare-bones alt managers floating around.</p>
+    <table>
+      <tr><th>Feature</th><th>RAM+</th><th>Basic managers</th></tr>
+      <tr><td>Live Memory/CPU per account</td><td class="yes">Yes</td><td class="no">No</td></tr>
+      <tr><td>Built-in multiboxing grid</td><td class="yes">Yes</td><td class="no">Usually a separate tool</td></tr>
+      <tr><td>Live View — real preview of every window</td><td class="yes">Yes</td><td class="no">No</td></tr>
+      <tr><td>Macro playback across accounts</td><td class="yes">Yes</td><td class="no">No</td></tr>
+      <tr><td>Anti-AFK with statistics window</td><td class="yes">Yes</td><td class="no">No</td></tr>
+      <tr><td>Remote web dashboard</td><td class="yes">Yes</td><td class="no">No</td></tr>
+      <tr><td>Full theme editor + auto-recolor</td><td class="yes">Yes</td><td class="no">No</td></tr>
+    </table>
+    <p class="section-sub" style="margin-top:18px">Full breakdown, including the comparison against the original Roblox Account Manager, is in the <a href="https://github.com/Cynx21309/RobloxAccountManagerPlus#-ram-vs-the-original-vs-other-basic-managers">README</a>.</p>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <h2>FAQ</h2>
+    <p class="section-sub">&nbsp;</p>
+    <div class="faq">
+      <details>
+        <summary>Is Roblox Account Manager+ free?</summary>
+        <p>Yes — the download is free. See the <a href="https://github.com/Cynx21309/RobloxAccountManagerPlus/releases/latest">latest release</a>.</p>
+      </details>
+      <details>
+        <summary>Where do my account cookies go?</summary>
+        <p>Nowhere but your own disk, encrypted, and Roblox's official endpoints when the app checks a session or launches a game — the same as your browser does. No telemetry, no external server.</p>
+      </details>
+      <details>
+        <summary>Can I run more than one Roblox client at once?</summary>
+        <p>Yes — that's the whole point. Launch as many accounts as you want side by side, optionally arranged with the built-in multiboxing grid.</p>
+      </details>
+      <details>
+        <summary>Is there an auto-updater?</summary>
+        <p>Yes — RAM+ checks for a new version on startup and asks before downloading and installing it. Nothing updates without your say-so.</p>
+      </details>
+      <details>
+        <summary>Is this the same as "RAM" or "Roblox Account Manager"?</summary>
+        <p>RAM+ started as a fork of the original Roblox Account Manager and kept building from there — it's a separate, actively developed project with a much larger feature set. See the full <a href="#comparison">comparison</a>.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Not affiliated with Roblox Corporation. You are responsible for your own accounts.</p>
+    <p><a href="https://github.com/Cynx21309/RobloxAccountManagerPlus">GitHub</a> · <a href="https://discord.gg/5ErzTB4qvP">Discord</a> · <a href="https://github.com/Cynx21309/RobloxAccountManagerPlus/releases/latest">Download</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
