@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Access-Public%20%2F%20Key%20Only-3498db?style=for-the-badge" alt="Public download, key only">
 </p>
 
-[🖼️ Screenshots](#-screenshots) • [✨ Features](#features) • [📊 Comparison](#-ram-vs-the-original-vs-other-basic-managers) • [🔑 Getting a Key](#-getting-a-key) • [🚀 Getting Started](#-getting-started) • [🔒 Security](#-security-and-privacy) • [❓ FAQ](#-faq)
+[🆕 What's New](#-whats-new-in-38) • [🖼️ Screenshots](#-screenshots) • [✨ Features](#features) • [📊 Comparison](#-ram-vs-the-original-vs-other-basic-managers) • [🔑 Getting a Key](#-getting-a-key) • [🚀 Getting Started](#-getting-started) • [🔒 Security](#-security-and-privacy) • [❓ FAQ](#-faq)
 
 </div>
 
@@ -21,6 +21,25 @@
 The download is **public**,
 It's not open source and isn't accepting outside contributions;
 this README is here so anyone with a key knows what the app actually does.
+
+## 🆕 What's New in 3.8
+
+- 🛠️ **Multi Roblox fixed** — launched accounts no longer close about 2 seconds after opening
+- 🔁 **Joins that don't give up** — if Roblox doesn't answer, RAM+ retries on its own, and if it still can't
+  connect it tells you it's a connection problem instead of "Account Session Expired, re-add the account"
+- 🐢 **No more 2-3 FPS background accounts** under Max alts/Balanced, and no stutter when you switch between accounts
+- ℹ️ **Account Info** — right-click any account for Robux, friends/followers/following, join date, account age,
+  email and 2FA status, and when it was added to RAM+
+- 🎚️ **Redesigned FPS Changer** — one-click FPS presets, click-to-edit FastFlags and Advanced Settings lists,
+  and "Selected account(s)" follows your selection live
+- 📈 **Rebuilt Anti-AFK Statistics** — a new card layout with a live Next Cycle countdown
+- 🧩 **Arrange Windows** button right on the Live tab
+- 🌌 **New animated galaxy loading screen** with a futuristic ringed planet
+- 🧰 **Login browser repairs itself** — if it's ever damaged, RAM+ reinstalls it on the spot instead of closing
+- ⚡ **Faster and smoother** — quicker startup, the main window opens fully drawn, sidebar buttons animate,
+  and sidebar windows open right away with a smooth fade instead of freezing the app for a second
+
+Full details are on the [Releases page](../../releases).
 
 ## 🖼️ Screenshots
 
@@ -51,6 +70,9 @@ Every window, tab, and menu in the app, grouped into six parts:
 - 🤖 **Account Generator** (Add Account -> Account Generator) — fills in Roblox's sign-up page and presses Sign Up
   while **you solve each CAPTCHA by hand**; the account is then saved to RAM+ with its password
 - 🎛️ Drag accounts into **Account Control** to manage them from a separate panel, grouped like the main list
+- ℹ️ Right-click ▸ **Account Info** — a live snapshot of Robux, friends/followers/following, join date and
+  account age, plus email and 2FA status, next to when the account was added to RAM+
+- 🧰 The login browser fixes itself — if it's ever damaged, RAM+ re-downloads it with a progress bar and stays open
 
 **Launching**
 - 🎮 Launch into a Place ID, a specific server (job ID), or a private server/share link
@@ -58,17 +80,21 @@ Every window, tab, and menu in the app, grouped into six parts:
 - 💾 Saved game/server presets so you don't have to re-paste the same link every time
 - 🌐 Server browser with player counts, and a Follow-a-player option
 - 🪟 **Restore Window Position** — puts each account's window back exactly where it was last time
+- 🔁 Joins retry on their own if Roblox doesn't answer, and a real connection problem is reported as one
+  (with the actual network error) instead of "re-add the account"
 
 **Anti-AFK**
 - 💤 Its own sidebar section, reliable across every open window, with automatic retries
 - 🔌 Auto Reconnect — clicks through Roblox's own disconnect dialog if a client gets kicked
-- 📈 **Anti-AFK Statistics** window — total AFK time, actions performed, auto-reconnects, longest session, live "next cycle" countdown
+- 📈 **Anti-AFK Statistics** window — a card layout with total AFK time, longest session, actions performed,
+  auto-reconnects, last action/cycle, and a live "next cycle" countdown
 - ⚡ Quick on/off toggles for Anti-AFK and Auto-Reconnect right on the main screen, with the current
   action/interval and a live "next cycle" countdown shown right there — no separate window needed
 
 **Live View**
 - 🖥️ A live, real-time preview tile for every running account's window in one place — click a tile to focus that window
 - 🧹 **Minimize All** / **Bring Roblox to Front** buttons for every open account at once, alongside Reconnect/Remove previews
+- 🧩 **Arrange Windows** button next to Streamer Mode — snaps every window into its OpenMultiBoxing+ slot
 - 🥚 **Egg Hatch Calculator** tab — combined eggs/min, /hour, /day across every account currently in that game
 
 **Macro Playback & Auto Clicker**
@@ -82,8 +108,9 @@ Every window, tab, and menu in the app, grouped into six parts:
 - 🪟 Window shrink/resize tools, auto-mute audio, force low graphics, window position restore
 - 🧹 Auto-clean old logs, remove outdated Roblox versions, clean crash dumps
 - 🎙️ Discord Rich Presence while the app is open
-- 🎚️ Global FPS cap or a per-account override, plus a FastFlags editor and an Advanced Settings tab —
-  all written straight into Roblox's own files
+- 🎚️ Global FPS cap or a per-account override (one-click presets: 10 / 15 / 20 / 30 / 60 / 120 / 240, or -1
+  for Unlimited), plus a FastFlags editor and an Advanced Settings tab with click-to-edit lists — all written
+  straight into Roblox's own files, only when you save them
 - 📺 Optional RAM/CPU/Time overlay on each Roblox window
 - 📊 A live System Resources card for the whole app, right in the sidebar
 
@@ -97,6 +124,8 @@ Every window, tab, and menu in the app, grouped into six parts:
 **Theming**
 - 🎨 Full Theme Editor — colors, borders, and backgrounds for every part of the UI
 - 🖼️ Custom background image, **Match Colors** auto-recolor from it, animated RGB border
+- 🌌 Animated galaxy loading screen — warp-speed stars, a futuristic ringed planet and a live status line
+- ✨ Smooth animations — sidebar buttons ripple when clicked, and their windows fade and glide in
 
 **Utilities**
 - 🔎 Browse Games, Private Server Manager, Account Control, Account Utilities
@@ -134,6 +163,7 @@ just what's different here.
 | **Online-in-game status dot** | ![Yes][yes] | ![No][no] | ![No][no] |
 | **Ctrl+K account search** | ![Yes][yes] | ![No][no] | ![No][no] |
 | **Per-account window position/size restore** | ![Yes][yes] | ![No][no] | ![No][no] |
+| **Account Info panel** — Robux, friends/followers/following, join date, email/2FA status in one view | ![Yes][yes] | ![No][no] | ![No][no] |
 | **Built-in multiboxing grid (OpenMultiBoxing+)** | ![Yes][yes] | ![No][no] | ![No][no] — usually needs a separate third-party tool |
 | **Live View** — real live video preview of every running account's window in one place | ![Yes][yes] | ![No][no] | ![No][no] |
 | **Egg Hatch Calculator** — combined eggs/min, /hour, /day across multiple accounts | ![Yes][yes] | ![No][no] | ![No][no] |
@@ -216,7 +246,8 @@ Yes, that's the whole point — launch as many accounts as you want side by side
 <details>
 <summary><b>Is there an auto-updater?</b></summary>
 
-Yes — RAM+ checks for a new version on startup and asks Yes/No before downloading and installing it.
+Yes — RAM+ checks for a new version in the background while it starts up (so it never slows the launch
+down) and asks Yes/No before downloading and installing it.
 Nothing updates without your say-so.
 </details>
 
