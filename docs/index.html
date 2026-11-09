@@ -63,14 +63,18 @@
   /* sticky top bar */
   .topbar{position:fixed; top:0; left:0; right:0; z-index:50; backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); background:rgba(6,7,12,.55); border-bottom:1px solid transparent; transition:border-color .25s ease, background .25s ease}
   .topbar.scrolled{border-color:var(--border); background:rgba(6,7,12,.85)}
-  .topbar .wrap{display:flex; align-items:center; justify-content:space-between; padding:12px 20px}
-  .brand{display:flex; align-items:center; gap:8px; font-family:'Sora',sans-serif; font-weight:700; font-size:15px; text-decoration:none; color:var(--text)}
-  .brand .crown-sm{font-size:18px}
-  .topnav{display:flex; align-items:center; gap:22px}
+  .topbar .wrap{display:flex; align-items:center; justify-content:space-between; gap:12px; padding:12px 20px}
+  .brand{display:flex; align-items:center; gap:8px; font-family:'Sora',sans-serif; font-weight:700; font-size:15px; text-decoration:none; color:var(--text); min-width:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+  .brand .crown-sm{font-size:18px; flex-shrink:0}
+  .topnav{display:flex; align-items:center; gap:22px; flex-shrink:0}
   .topnav a.link{font-size:13.5px; color:var(--muted); text-decoration:none; font-weight:500}
   .topnav a.link:hover{color:var(--text)}
-  .topnav .btn{padding:9px 18px; font-size:13.5px}
+  .topnav .btn{padding:9px 18px; font-size:13.5px; white-space:nowrap}
   @media (max-width:700px){ .topnav .link{display:none} }
+  @media (max-width:420px){
+    .brand{font-size:13px}
+    .topnav .btn{padding:8px 12px; font-size:12.5px}
+  }
 
   header.hero{position:relative; padding:150px 0 60px; text-align:center; isolation:isolate}
   .aurora{position:absolute; inset:-10% -20% auto -20%; height:720px; z-index:-1; pointer-events:none; filter:blur(10px)}
