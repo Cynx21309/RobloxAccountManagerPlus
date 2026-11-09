@@ -9,10 +9,11 @@
   <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
   <img src="https://img.shields.io/badge/.NET%20Framework-4.7.2-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET Framework 4.7.2">
   <img src="https://img.shields.io/badge/Status-Active-2ecc71?style=for-the-badge" alt="Active">
-  <img src="https://img.shields.io/badge/Access-Public%20%2F%20Key%20Only-3498db?style=for-the-badge" alt="Public download, key only">
+  <img src="https://img.shields.io/badge/Access-Public-3498db?style=for-the-badge" alt="Public download">
+  <a href="https://github.com/Cynx21309/RobloxAccountManagerPlus/releases"><img src="https://img.shields.io/github/downloads/Cynx21309/RobloxAccountManagerPlus/total?style=for-the-badge&logo=github&label=Downloads&color=f39c12" alt="Total downloads"></a>
 </p>
 
-[🆕 What's New](#-whats-new-in-38) • [🖼️ Screenshots](#-screenshots) • [✨ Features](#features) • [📊 Comparison](#-ram-vs-the-original-vs-other-basic-managers) • [🔑 Getting a Key](#-getting-a-key) • [🚀 Getting Started](#-getting-started) • [🔒 Security](#-security-and-privacy) • [❓ FAQ](#-faq)
+[🆕 What's New](#-whats-new-in-38) • [🖼️ Screenshots](#-screenshots) • [✨ Features](#features) • [📊 Comparison](#-ram-vs-the-original-vs-other-basic-managers) • [🚀 Getting Started](#-getting-started) • [🔒 Security](#-security-and-privacy) • [❓ FAQ](#-faq)
 
 </div>
 
@@ -20,7 +21,7 @@
 
 The download is **public**,
 It's not open source and isn't accepting outside contributions;
-this README is here so anyone with a key knows what the app actually does.
+this README is here so anyone can see what the app actually does.
 
 ## 🆕 What's New in 3.8
 
@@ -191,17 +192,10 @@ just what's different here.
 
 </div>
 
-## 🔑 Getting a Key
-
-Release builds require a key before the app opens at all. Keys are issued by the owner and bound to
-one device the first time they're used — make a ticket on Discord if you don't have one.
-
-Once activated, the title bar shows how much time is left on your key.
-
 ## 🚀 Getting Started
 
-1️⃣ Get the exe and a license key (see above).
-2️⃣ Run it, enter your key and Discord username, and choose **Add account**.
+1️⃣ Download the latest `.zip` from the [Releases page](https://github.com/Cynx21309/RobloxAccountManagerPlus/releases) and extract it.
+2️⃣ Run it and choose **Add account**.
 
 ### Adding an account
 
