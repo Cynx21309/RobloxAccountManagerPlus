@@ -18,8 +18,8 @@
 
 ---
 
-The download is **public**, but the app is **key only** — it won't open without a license key (see
-[Getting a key](#-getting-a-key)). It's not open source and isn't accepting outside contributions;
+The download is **public**,
+It's not open source and isn't accepting outside contributions;
 this README is here so anyone with a key knows what the app actually does.
 
 ## 🖼️ Screenshots
