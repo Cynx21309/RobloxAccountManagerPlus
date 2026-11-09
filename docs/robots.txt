@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cynx21309.github.io/RobloxAccountManagerPlus/sitemap.xml
