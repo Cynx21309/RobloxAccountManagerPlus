@@ -186,7 +186,7 @@ just what's different here.
 | **Per-account RAM/CPU/time overlay** | ![Yes][yes] | ![No][no] | ![No][no] |
 | **System Resources sidebar card** — live CPU/RAM for the whole app | ![Yes][yes] | ![No][no] | ![No][no] |
 | **Ghost process cleanup / memory trimming** | ![Yes][yes] | ![No][no] | ![No][no] |
-| Theme editor | ![Yes][yes] | ![Yes][yes] — basic, "not much I can do about it with WinForms" by their own README | ![No][no] |
+| Theme editor | ![Yes][yes] | ![Yes][yes]  | ![No][no] |
 | **Auto-recolor from a background image** | ![Yes][yes] | ![No][no] | ![No][no] |
 | **Animated RGB window border** | ![Yes][yes] | ![No][no] | ![No][no] |
 
