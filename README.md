@@ -13,7 +13,7 @@
   <a href="https://github.com/Cynx21309/RobloxAccountManagerPlus/releases"><img src="https://img.shields.io/github/downloads/Cynx21309/RobloxAccountManagerPlus/total?style=for-the-badge&logo=github&label=Downloads&color=f39c12" alt="Total downloads"></a>
 </p>
 
-[🆕 What's New](#-whats-new-in-38) • [🖼️ Screenshots](#-screenshots) • [✨ Features](#features) • [📊 Comparison](#-ram-vs-the-original-vs-other-basic-managers) • [🚀 Getting Started](#-getting-started) • [🔒 Security](#-security-and-privacy) • [❓ FAQ](#-faq)
+[🆕 What's New](#-whats-new-in-39) • [🖼️ Screenshots](#-screenshots) • [✨ Features](#features) • [📊 Comparison](#-ram-vs-the-original-vs-other-basic-managers) • [🚀 Getting Started](#-getting-started) • [🔒 Security](#-security-and-privacy) • [❓ FAQ](#-faq)
 
 </div>
 
@@ -23,22 +23,22 @@ The download is **public**,
 It's not open source and isn't accepting outside contributions;
 this README is here so anyone can see what the app actually does.
 
-## 🆕 What's New in 3.8
+## 🆕 What's New in 3.9
 
-- 🛠️ **Multi Roblox fixed** — launched accounts no longer close about 2 seconds after opening
-- 🔁 **Joins that don't give up** — if Roblox doesn't answer, RAM+ retries on its own, and if it still can't
-  connect it tells you it's a connection problem instead of "Account Session Expired, re-add the account"
-- 🐢 **No more 2-3 FPS background accounts** under Max alts/Balanced, and no stutter when you switch between accounts
-- ℹ️ **Account Info** — right-click any account for Robux, friends/followers/following, join date, account age,
-  email and 2FA status, and when it was added to RAM+
-- 🎚️ **Redesigned FPS Changer** — one-click FPS presets, click-to-edit FastFlags and Advanced Settings lists,
-  and "Selected account(s)" follows your selection live
-- 📈 **Rebuilt Anti-AFK Statistics** — a new card layout with a live Next Cycle countdown
-- 🧩 **Arrange Windows** button right on the Live tab
-- 🌌 **New animated galaxy loading screen** with a futuristic ringed planet
-- 🧰 **Login browser repairs itself** — if it's ever damaged, RAM+ reinstalls it on the spot instead of closing
-- ⚡ **Faster and smoother** — quicker startup, the main window opens fully drawn, sidebar buttons animate,
-  and sidebar windows open right away with a smooth fade instead of freezing the app for a second
+- 🧭 **Discover** — browse Roblox games inside RAM+ with icons, live player counts and ratings, every category,
+  search and favorites, then launch your selected accounts in one click
+- 🩺 **Diagnostics** — Account Health (bans, signed-out cookies, locked PINs), Crash Reasons in plain English,
+  a Logs viewer and one-click Repair tools, all in one window
+- 🌐 **Rebuilt Utilities** — servers with ping, free slots, FPS and a Join button each, a new
+  "Best ping + emptiest" sort, and a Universe page, all following your Place ID
+- 👕 **Rebuilt Outfit Dresser** — categories, Worn / Not worn filter, Wear / Take off on hover, Clone to accounts
+- 🙈 **Nicknames and Hide Usernames** — show "alt" or Alt 1, Alt 2... instead of usernames (great for streaming)
+- 📌 **Pin to top, Main accounts and group tools** — reorder, lock and multi-select groups, Ctrl+A selects all
+- 🧮 **Stagger CPU cores** — every Roblox window on one thread of each real core, like a Process Lasso stagger
+- 🔁 **Join retries and launch pacing** — failed joins retry, and launches can wait for your CPU/RAM to settle
+- 🎨 **Theme presets**, RAM+'s own dark message boxes, and rebuilt Account Info, Quick Log In, Private Server
+  and import windows
+- 🛠️ **Fixes** — running accounts no longer close when you launch another, no more mouse lag, and many smaller fixes
 
 Full details are on the [Releases page](../../releases).
 
@@ -66,7 +66,8 @@ Every window, tab, and menu in the app, grouped into six parts:
 - ➕ Add, group, launch, and manage any number of Roblox accounts from one list
 - 📊 Live Memory/CPU usage and an online-in-game status dot per running account
 - ⌨️ Ctrl+K search box to filter the account list instantly
-- ✏️ Per-account description, alias, and display name editing
+- ✏️ Per-account description and display name editing, plus **Set Nickname** and **Hide Usernames** (Alt 1, Alt 2...)
+- 📌 **Pin to top**, **Main account**, group reorder / lock / multi-select, and Ctrl+A to select everything
 - ⏱️ Uptime shown as `Xd Xh Xm Xs` once an account's been running 24h+
 - 🤖 **Account Generator** (Add Account -> Account Generator) — fills in Roblox's sign-up page and presses Sign Up
   while **you solve each CAPTCHA by hand**; the account is then saved to RAM+ with its password
@@ -79,7 +80,7 @@ Every window, tab, and menu in the app, grouped into six parts:
 - 🎮 Launch into a Place ID, a specific server (job ID), or a private server/share link
 - ✅ Tick several accounts to launch them one after another
 - 💾 Saved game/server presets so you don't have to re-paste the same link every time
-- 🌐 Server browser with player counts, and a Follow-a-player option
+- 🌐 Server browser with ping, free slots, server FPS and a Join button on every server, plus a **Best ping + emptiest** sort
 - 🪟 **Restore Window Position** — puts each account's window back exactly where it was last time
 - 🔁 Joins retry on their own if Roblox doesn't answer, and a real connection problem is reported as one
   (with the actual network error) instead of "re-add the account"
@@ -114,6 +115,10 @@ Every window, tab, and menu in the app, grouped into six parts:
   straight into Roblox's own files, only when you save them
 - 📺 Optional RAM/CPU/Time overlay on each Roblox window
 - 📊 A live System Resources card for the whole app, right in the sidebar
+- 🧮 **Stagger CPU cores** (like Process Lasso) and a **Max Accounts Estimate** for your PC
+
+**Diagnostics**
+- 🩺 **Account Health** scan, **Crash Reasons** in plain English, a **Logs** viewer with a privacy-safe Copy Report, and one-click **Repair** tools
 
 **OpenMultiBoxing+**
 - 🧩 Built-in multiboxing — each account gets a fixed slot and its window snaps there the instant it launches
@@ -123,15 +128,16 @@ Every window, tab, and menu in the app, grouped into six parts:
 - 🪄 Its own window, independent of the main one
 
 **Theming**
-- 🎨 Full Theme Editor — colors, borders, and backgrounds for every part of the UI
+- 🎨 Full Theme Editor — colors, borders, and backgrounds for every part of the UI, plus 5 ready-made presets
 - 🖼️ Custom background image, **Match Colors** auto-recolor from it, animated RGB border
 - 🌌 Animated galaxy loading screen — warp-speed stars, a futuristic ringed planet and a live status line
 - ✨ Smooth animations — sidebar buttons ripple when clicked, and their windows fade and glide in
 
 **Utilities**
-- 🔎 Browse Games, Private Server Manager, Account Control, Account Utilities
-- 👕 **Outfit Dresser** — browse an account's inventory, double-click an item to wear or unwear it, or
-  share a full outfit via code
+- 🧭 **Discover** — browse and launch Roblox games right inside RAM+, with favorites
+- 🔎 Utilities (Servers and Universe pages), Private Server Manager, Account Control, Account Utilities
+- 👕 **Outfit Dresser** — browse an account's inventory by category, wear or take off items, share an outfit
+  via code, or clone it to other accounts
 
 **Remote Dashboard**
 - 📱 A password-protected website built into RAM+: live account tiles, stat cards and a history chart,
