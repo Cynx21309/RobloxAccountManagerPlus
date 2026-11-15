@@ -13,7 +13,7 @@
   <a href="https://github.com/Cynx21309/RobloxAccountManagerPlus/releases"><img src="https://img.shields.io/github/downloads/Cynx21309/RobloxAccountManagerPlus/total?style=for-the-badge&logo=github&label=Downloads&color=f39c12" alt="Total downloads"></a>
 </p>
 
-[🆕 What's New](#-whats-new-in-39) • [🖼️ Screenshots](#-screenshots) • [✨ Features](#features) • [📊 Comparison](#-ram-vs-the-original-vs-other-basic-managers) • [🚀 Getting Started](#-getting-started) • [🔒 Security](#-security-and-privacy) • [❓ FAQ](#-faq)
+[🆕 What's New](#-whats-new-in-40) • [🖼️ Screenshots](#-screenshots) • [✨ Features](#features) • [📊 Comparison](#-ram-vs-the-original-vs-other-basic-managers) • [🚀 Getting Started](#-getting-started) • [🔒 Security](#-security-and-privacy) • [❓ FAQ](#-faq)
 
 </div>
 
@@ -23,22 +23,22 @@ The download is **public**,
 It's not open source and isn't accepting outside contributions;
 this README is here so anyone can see what the app actually does.
 
-## 🆕 What's New in 3.9
+## 🆕 What's New in 4.0
 
-- 🧭 **Discover** — browse Roblox games inside RAM+ with icons, live player counts and ratings, every category,
-  search and favorites, then launch your selected accounts in one click
-- 🩺 **Diagnostics** — Account Health (bans, signed-out cookies, locked PINs), Crash Reasons in plain English,
-  a Logs viewer and one-click Repair tools, all in one window
-- 🌐 **Rebuilt Utilities** — servers with ping, free slots, FPS and a Join button each, a new
-  "Best ping + emptiest" sort, and a Universe page, all following your Place ID
-- 👕 **Rebuilt Outfit Dresser** — categories, Worn / Not worn filter, Wear / Take off on hover, Clone to accounts
-- 🙈 **Nicknames and Hide Usernames** — show "alt" or Alt 1, Alt 2... instead of usernames (great for streaming)
-- 📌 **Pin to top, Main accounts and group tools** — reorder, lock and multi-select groups, Ctrl+A selects all
-- 🧮 **Stagger CPU cores** — every Roblox window on one thread of each real core, like a Process Lasso stagger
-- 🔁 **Join retries and launch pacing** — failed joins retry, and launches can wait for your CPU/RAM to settle
-- 🎨 **Theme presets**, RAM+'s own dark message boxes, and rebuilt Account Info, Quick Log In, Private Server
-  and import windows
-- 🛠️ **Fixes** — running accounts no longer close when you launch another, no more mouse lag, and many smaller fixes
+- 🎬 **Presets** — save a set of accounts with their games, servers, window spots and settings, then start them
+  all again with one click (or every time RAM+ opens)
+- 🖥️ **Virtual desktops** — send accounts to another Windows desktop; RAM+ remembers it on every launch and
+  lays them out in your OpenMultiBoxing+ grid there
+- 🟢 **Roblox Status** — a big up / slow / down banner, incidents, maintenance and every Roblox service at a glance
+- 🧩 **Roblox client card** — your Roblox version, Reinstall Roblox, and optional automatic Roblox updates that never close a game
+- 🧭 **Discover game pages and Friends in Servers** — pictures, stats and links for each game, and join your accounts' friends
+- 🤖 **Your own Discord bot** — /launch, /close and /status, plus Relaunch and Ignore buttons on disconnect alerts
+- ⚙️ **Main settings, password generator and Startup Delay** — per-Main performance choices and FPS cap,
+  strong passwords in one click, and a wait after Windows starts
+- 🖼️ **Live View upgrades** — drag to reorder, hover for RAM / CPU / uptime, previews off or paused on other desktops
+- ❓ **? help and a built-in FAQ** — rest your mouse on a ? to see what something does; FAQ is in Settings
+- ⚡ **Faster windows** — every window opens the moment you click it, with no more boxes on button corners
+- 🛠️ **Fixes** — Shuffle Job ID, Auto Reconnect with Anti-AFK on, an invisible FPS Changer window, and more
 
 Full details are on the [Releases page](../../releases).
 
