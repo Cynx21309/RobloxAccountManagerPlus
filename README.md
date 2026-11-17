@@ -13,7 +13,7 @@
   <a href="https://github.com/Cynx21309/RobloxAccountManagerPlus/releases"><img src="https://img.shields.io/github/downloads/Cynx21309/RobloxAccountManagerPlus/total?style=for-the-badge&logo=github&label=Downloads&color=f39c12" alt="Total downloads"></a>
 </p>
 
-[🆕 What's New](#-whats-new-in-40) • [🖼️ Screenshots](#-screenshots) • [✨ Features](#features) • [📊 Comparison](#-ram-vs-the-original-vs-other-basic-managers) • [🚀 Getting Started](#-getting-started) • [🔒 Security](#-security-and-privacy) • [❓ FAQ](#-faq)
+[🆕 What's New](#-whats-new-in-41) • [🖼️ Screenshots](#-screenshots) • [✨ Features](#features) • [📊 Comparison](#-ram-vs-the-original-vs-other-basic-managers) • [🚀 Getting Started](#-getting-started) • [🔒 Security](#-security-and-privacy) • [❓ FAQ](#-faq)
 
 </div>
 
@@ -23,22 +23,17 @@ The download is **public**,
 It's not open source and isn't accepting outside contributions;
 this README is here so anyone can see what the app actually does.
 
-## 🆕 What's New in 4.0
+## 🆕 What's New in 4.1
 
-- 🎬 **Presets** — save a set of accounts with their games, servers, window spots and settings, then start them
-  all again with one click (or every time RAM+ opens)
-- 🖥️ **Virtual desktops** — send accounts to another Windows desktop; RAM+ remembers it on every launch and
-  lays them out in your OpenMultiBoxing+ grid there
-- 🟢 **Roblox Status** — a big up / slow / down banner, incidents, maintenance and every Roblox service at a glance
-- 🧩 **Roblox client card** — your Roblox version, Reinstall Roblox, and optional automatic Roblox updates that never close a game
-- 🧭 **Discover game pages and Friends in Servers** — pictures, stats and links for each game, and join your accounts' friends
-- 🤖 **Your own Discord bot** — /launch, /close and /status, plus Relaunch and Ignore buttons on disconnect alerts
-- ⚙️ **Main settings, password generator and Startup Delay** — per-Main performance choices and FPS cap,
-  strong passwords in one click, and a wait after Windows starts
-- 🖼️ **Live View upgrades** — drag to reorder, hover for RAM / CPU / uptime, previews off or paused on other desktops
-- ❓ **? help and a built-in FAQ** — rest your mouse on a ? to see what something does; FAQ is in Settings
-- ⚡ **Faster windows** — every window opens the moment you click it, with no more boxes on button corners
-- 🛠️ **Fixes** — Shuffle Job ID, Auto Reconnect with Anti-AFK on, an invisible FPS Changer window, and more
+- 🔐 **Sign-in error fix** — no more stuck "Error Code: 403 – An error was encountered during authentication" on launch:
+  RAM+ gets a fresh sign-in ticket right before Roblox opens, and if the error still shows up it closes it and relaunches the account for you
+- 🖱️ **Shift+click** to select a range of accounts, even across groups
+- ⚡ **Instant right-click menu** — no more multi-second freeze, and RAM+ uses much less CPU while it sits open
+- 🚀 **Space updater** — a little ship flies to the new version while it downloads, then lands on RAM+'s Saturn
+- 🖥️ **Virtual desktop and OpenMultiBoxing+ fixes** — move many accounts at once, every slot gets a position, Arrange only lays out your numbered accounts
+- ✅ **Tidier right-click menu** — green checks on options that are on, and a Tools menu with Make friends and Password generator
+- 🧹 **Smoother memory trim** — Max alts and Balanced trim every 30 seconds so clients don't slow down while loading
+- 🛠️ **More fixes** — windows stay on screen when a tab gets taller, Enter saves the FPS in Main settings, and more
 
 Full details are on the [Releases page](../../releases).
 
@@ -67,7 +62,7 @@ Every window, tab, and menu in the app, grouped into six parts:
 - 📊 Live Memory/CPU usage and an online-in-game status dot per running account
 - ⌨️ Ctrl+K search box to filter the account list instantly
 - ✏️ Per-account description and display name editing, plus **Set Nickname** and **Hide Usernames** (Alt 1, Alt 2...)
-- 📌 **Pin to top**, **Main account**, group reorder / lock / multi-select, and Ctrl+A to select everything
+- 📌 **Pin to top**, **Main account**, group reorder / lock / multi-select, Ctrl+A to select everything and Shift+click to select a range
 - ⏱️ Uptime shown as `Xd Xh Xm Xs` once an account's been running 24h+
 - 🤖 **Account Generator** (Add Account -> Account Generator) — fills in Roblox's sign-up page and presses Sign Up
   while **you solve each CAPTCHA by hand**; the account is then saved to RAM+ with its password
@@ -195,6 +190,7 @@ just what's different here.
 | Theme editor | ![Yes][yes] | ![Yes][yes]  | ![No][no] |
 | **Auto-recolor from a background image** | ![Yes][yes] | ![No][no] | ![No][no] |
 | **Animated RGB window border** | ![Yes][yes] | ![No][no] | ![No][no] |
+| **Auto-recovers Roblox's "Error Code: 403"** sign-in error on launch | ![Yes][yes] | ![No][no] | ![No][no] |
 
 </div>
 
