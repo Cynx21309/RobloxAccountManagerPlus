@@ -63,6 +63,7 @@ Every window, tab, and menu in the app, grouped into six parts:
 - ⌨️ Ctrl+K search box to filter the account list instantly
 - ✏️ Per-account description and display name editing, plus **Set Nickname** and **Hide Usernames** (Alt 1, Alt 2...)
 - 📌 **Pin to top**, **Main account**, group reorder / lock / multi-select, Ctrl+A to select everything and Shift+click to select a range
+- 🌐 **Proxies** (sidebar) — paste HTTP proxies, test them, and spread accounts over them (e.g. 3 per proxy); RAM+'s own requests for each account use its proxy, launching still uses your real connection
 - ⏱️ Uptime shown as `Xd Xh Xm Xs` once an account's been running 24h+
 - 🤖 **Account Generator** (Add Account -> Account Generator) — fills in Roblox's sign-up page and presses Sign Up
   while **you solve each CAPTCHA by hand**; the account is then saved to RAM+ with its password
@@ -191,6 +192,7 @@ just what's different here.
 | **Auto-recolor from a background image** | ![Yes][yes] | ![No][no] | ![No][no] |
 | **Animated RGB window border** | ![Yes][yes] | ![No][no] | ![No][no] |
 | **Auto-recovers Roblox's "Error Code: 403"** sign-in error on launch | ![Yes][yes] | ![No][no] | ![No][no] |
+| **Per-account proxies** — paste a list, test it, N accounts per proxy | ![Yes][yes] | ![No][no] | ![No][no] |
 
 </div>
 
