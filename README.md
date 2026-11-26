@@ -13,7 +13,7 @@
   <a href="https://github.com/Cynx21309/RobloxAccountManagerPlus/releases"><img src="https://img.shields.io/github/downloads/Cynx21309/RobloxAccountManagerPlus/total?style=for-the-badge&logo=github&label=Downloads&color=f39c12" alt="Total downloads"></a>
 </p>
 
-[🆕 What's New](#-whats-new-in-41) • [🖼️ Screenshots](#-screenshots) • [✨ Features](#features) • [📊 Comparison](#-ram-vs-the-original-vs-other-basic-managers) • [🚀 Getting Started](#-getting-started) • [🔒 Security](#-security-and-privacy) • [❓ FAQ](#-faq)
+[🆕 What's New](#-whats-new-in-42) • [🖼️ Screenshots](#-screenshots) • [✨ Features](#features) • [📊 Comparison](#-ram-vs-the-original-vs-other-basic-managers) • [🚀 Getting Started](#-getting-started) • [🔒 Security](#-security-and-privacy) • [❓ FAQ](#-faq)
 
 </div>
 
@@ -23,17 +23,18 @@ The download is **public**,
 It's not open source and isn't accepting outside contributions;
 this README is here so anyone can see what the app actually does.
 
-## 🆕 What's New in 4.1
+## 🆕 What's New in 4.2
 
-- 🔐 **Sign-in error fix** — no more stuck "Error Code: 403 – An error was encountered during authentication" on launch:
-  RAM+ gets a fresh sign-in ticket right before Roblox opens, and if the error still shows up it closes it and relaunches the account for you
-- 🖱️ **Shift+click** to select a range of accounts, even across groups
-- ⚡ **Instant right-click menu** — no more multi-second freeze, and RAM+ uses much less CPU while it sits open
-- 🚀 **Space updater** — a little ship flies to the new version while it downloads, then lands on RAM+'s Saturn
-- 🖥️ **Virtual desktop and OpenMultiBoxing+ fixes** — move many accounts at once, every slot gets a position, Arrange only lays out your numbered accounts
-- ✅ **Tidier right-click menu** — green checks on options that are on, and a Tools menu with Make friends and Password generator
-- 🧹 **Smoother memory trim** — Max alts and Balanced trim every 30 seconds so clients don't slow down while loading
-- 🛠️ **More fixes** — windows stay on screen when a tab gets taller, Enter saves the FPS in Main settings, and more
+- 📝 **Notes tab** — a notepad with tabs, search, history, PIN lock, split view, spell check, color themes, code blocks and a Trade list template
+- 🌐 **Proxies tab** — paste your proxies, test them and spread your accounts over them (rotating proxies work too)
+- 📺 **New Live View** — RAM+ look, a stats bar with RAM, CPU and uptime on every card, full names, a new sidebar and drag-to-reorder
+- 📱 **Live View on your phone** — the Remote Dashboard shows a sharp picture of every running Roblox window, in the same order as on your PC
+- 🥚 **Egg Hatch Calculator rebuilt** — egg goals, totals for 1 hour to 7 days, duplicate accounts, hatch speed mode, and no more freezing
+- 🩺 **Account Health** — ban reasons and details, a live ban countdown, Verify Emails, Fix All, and auto scans every 6/12/24 hours with Discord alerts
+- 👕 **Outfit Dresser** — Randomize an outfit from items you own (with Undo), and see free catalog items you don't have yet
+- ⚡ **Way less CPU**, a current Chrome login browser (fixes "Aw, Snap!"), and Open Browser lands signed in
+- 🧭 **Tidier windows** — Settings, Quality of Life and Diagnostics split into clearer tabs, a new Theme Editor and FPS Changer, and a gold crown for your Main
+- 🛠️ **Fixes** — cookie refresh, Roblox auto-update, Auto Reconnect rejoining other clients, account search, and lots more
 
 Full details are on the [Releases page](../../releases).
 
